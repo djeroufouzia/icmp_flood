@@ -57,7 +57,7 @@ int main(void)
     struct sockaddr_in dest_addr = {0};
 
     dest_addr.sin_family = AF_INET;
-
+   /* Set the destination IPv4 address */
     if (inet_pton(AF_INET, "192.168.56.8",
                   &dest_addr.sin_addr) != 1)
     {
