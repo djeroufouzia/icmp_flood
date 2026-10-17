@@ -1,0 +1,11 @@
+
+# Compiled executable
+icmp_flood
+*.out
+*.o
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
