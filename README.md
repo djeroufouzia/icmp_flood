@@ -7,8 +7,6 @@ This project explores low-level network programming in C using Linux raw sockets
 - **ICMP Flood (`icmp_flood.c`):** Generates ICMP Echo Request messages while allowing the Linux kernel to construct the IPv4 header.
 - **ICMP Packet Construction (`icmp_flood_spoofed.c`):** Constructs the IPv4 and ICMP headers in application code and uses `IP_HDRINCL` to supply the IPv4 header to the kernel.
 
-The project was developed for educational purposes as part of university-level networking and cybersecurity studies. It focuses on packet structure, checksums, byte order, raw sockets, and packet inspection.
-
 **Important distinction:** The second implementation studies manual IPv4 header construction. Its current source and destination addresses are both `127.0.0.1`, so it does not demonstrate spoofing a different source IP address.
 
 ## Technologies
